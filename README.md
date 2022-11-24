@@ -5,8 +5,10 @@
 1. Create .env file for docker environment variables
 2. Add the following environment variables into .env:
    ```shell
-   FERALCAT_DB_USER="<set-a-db-user>"
-   FERALCAT_DB_USER_PASSWORD="<set-a-db-password>"
+   FERALCAT_DB_USER="<set-db-user>"
+   FERALCAT_DB_USER_PASSWORD="<set-db-password>"
+   FERALCAT_KEYCLOAK_ADMIN_PASSWORD="<set-keycloak-admin-user-password>"
+   FERALCAT_KEYCLOAK_MANAGER_PASSWORD="<set-keycloak-management-user-password>"
    ```
 3. Run the docker compose command:
    ```shell
